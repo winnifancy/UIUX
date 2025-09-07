@@ -11,6 +11,7 @@ body {
 	margin: 0;
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
+	
 }
 body a {
 	transition: 0.5s all;
@@ -121,9 +122,19 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 
 
 .banner {
-	padding-top: 50px;
+	background-image: url(../images/bg.png); /* 設定你的圖片路徑 */
+	background-size: cover; /* 使圖片自動縮放到填滿區域 */
+	
+	width: 100%; /* 確保 banner 寬度為 100% */
+	height: 680px; /* 設定 banner 的高度 */
+	padding-top: 50px;	
 	background-color: #9A8E77;
-}
+	background-position: left -250px bottom 60px;
+  }
+
+.banner_bg  {
+	background:url(../images/bg.png) repeat 0px 0px transparent;}
+
 .banner-right {
     margin: 100px auto 0;
     text-align: left;
@@ -183,6 +194,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 .about-me {
 	padding:0;
 	margin:0 auto;
+	
 }
 .about-me h3 {
 	color:#A1B3A4;
@@ -494,6 +506,7 @@ img.img-responsive {
 }
 #about{
     padding: 1em 0;
+	
 }
 .service-head.one h3, .coding-head h3,h3.w3_inner_tittle{
 	color:#fff;
@@ -1313,7 +1326,7 @@ p.copy-right {
     font-size: 13px;
     padding: 20px 0;
     letter-spacing: 2px;
-    margin-top: 20px;
+    margin-top: 0px;
     text-transform: uppercase;
     font-family: 'Text Me One', sans-serif;
 }
@@ -1898,6 +1911,14 @@ span.circles-text {
 	}
 	#work{
 		padding: 1em 0;
+		background-image: url(../images/bg.png); /* 設定你的圖片路徑 */
+    background-size: cover; /* 使圖片自動縮放到填滿區域 */
+    
+    width: 100%; /* 確保 banner 寬度為 100% */
+    height: ax; /* 設定 banner 的高度 */
+    padding-top: 50px;  
+    background-color: #9A8E77;
+    background-position: left -250px bottom 60px;
 	}
 	.thim-click-to-bottom {
 		bottom: -48%;
@@ -2276,6 +2297,14 @@ span.circles-text {
 /*----start-work----*/
 .work{
 	padding:1em 0;
+	background-image: url(../images/bg.png); /* 設定你的圖片路徑 */
+    background-size: cover; /* 使圖片自動縮放到填滿區域 */
+    
+    width: 100%; /* 確保 banner 寬度為 100% */
+    height:auto; /* 設定 banner 的高度 */
+    padding-top: 50px;  
+    background-color: #9A8E77;
+    background-position: left -250px bottom 60px;
 }
 .work-head{
 	text-align: center;
@@ -2462,7 +2491,7 @@ span.circles-text {
 	content: '';
 	position: absolute;
 	width: 6px;
-	background-color: rgb(5, 35, 134) ;
+	background-color: #CCC;
 	top: 0;
 	bottom: 0;
 	left: 50%;
@@ -2631,3 +2660,4 @@ div.-delay3{
 	  opacity: 1;
 	}
   }
+  
